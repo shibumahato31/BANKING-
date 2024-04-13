@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+	 
+	.deposit{
+		width: 400px;
+		height: 300px;
+	 
+		margin: 100px auto;
+		 box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+	}
+	h1{
+		 padding: 10px;
+		text-align: center;
+	}
+	input[type=text]{
+		margin-left: 50px;
+    width:75%;
+    border:2px solid #aaa;
+    border-radius:4px;
+   
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    text-align: center;
+  }
+  
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+ button{
+	 margin-left: 150px;
+	 width: 100px;
+	 padding: 10px;
+	 background-color: #00BFFF;
+	 border: 1px solid #00BFFF;
+	 border-radius: 10px;
+	box-shadow:0 0 8px 0 dodgerBlue;
+ }
+	
+</style>
+<body>
+<div class="deposit">
+	<h1>Welcome To Withdraw Amount</h1>
+<form action="withdraw" method="post">
+	 <input type="text" name="amnt" placeholder="Enter amount to withdraw">
+	<br><br>
+	<button type="submit">Withdraw</button>  
+</form>
+</div>
+</body>
+</html>
